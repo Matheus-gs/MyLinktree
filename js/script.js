@@ -29,6 +29,6 @@ const lightMode = () => {
     for (i; i < linkButton.length; i++) {
         linkButton[i].setAttribute('class', 'linkButton')
     }
+    
     linkButton[3].setAttribute('onclick', 'darkMode()')
-
 }
