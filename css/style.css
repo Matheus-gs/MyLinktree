@@ -8,6 +8,7 @@
 
 body {
   height: 100vh;
+  padding: env(safe-area-inset-top);
 }
 
 #particles-js {
@@ -18,6 +19,7 @@ body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   position: relative;
+  padding: env(safe-area-inset-top);
 }
 
 .container {
@@ -30,9 +32,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   transition: 0.5s ease;
   position: absolute;
-
-  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px) env(safe-area-inset-bottom, 20px)
-    env(safe-area-inset-left, 20px);
+  padding: env(safe-area-inset-top);
 }
 
 .profile {
