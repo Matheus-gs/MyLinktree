@@ -8,13 +8,6 @@
 
 body {
   height: 100vh;
- 
-}
-
-.header{
-
-padding-top: env(safe-area-inset-top, 30px);
-
 }
 
 #particles-js {
